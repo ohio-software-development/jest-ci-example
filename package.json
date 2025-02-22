@@ -1,0 +1,24 @@
+{
+  "name": "jest-ci-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ohio-software-development/jest-ci-example#readme",
+  "bugs": {
+    "url": "https://github.com/ohio-software-development/jest-ci-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohio-software-development/jest-ci-example.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
