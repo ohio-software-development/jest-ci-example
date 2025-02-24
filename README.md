@@ -11,6 +11,14 @@ The provided instructions are intended for Linux-based operating systems (tested
 ## Setup
 
 0. Clone this repo
+1. Create a new branch with
+  ```bash
+  git branch first-last
+  ```
+1. Switch to your branch with
+  ```bash
+  git checkout first-last
+  ```
 1. Install project dependencies
   ```bash
   npm install
@@ -90,5 +98,10 @@ jobs:
       - name: Run tests
         run: npm test
 ```
-7. You should be good to go! Next, push your changes to your branch
-After pushing, you can go to GitHub repository and click on the "actions" tab to see current and past workflow runs. You can find your test results here. If it's green, then it passed! If not, be sure to check out the logs from the run to see what went wrong.
+7. You should be good to go! Next, push your changes to your branch.
+```bash
+git add .
+git commit -m "My first CI pipeline"
+git push
+```
+After pushing, you can go to the GitHub repository and click on the "actions" tab to see current and past workflow runs. You can find your test results here. If it's green, then it passed! If not, be sure to check out the logs from the run to see what went wrong.
