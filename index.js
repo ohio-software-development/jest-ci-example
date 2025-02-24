@@ -6,7 +6,7 @@ const input = (str) => {
       input: process.stdin,
       output: process.stdout
     });
-    
+
     rl.question(str, (response) => {
       rl.close();
       resolve(response);
@@ -40,7 +40,7 @@ async function main() {
   const b = parseInt(await input(b_question));
 
   try {
-    const result = op_functions[op-1](a, b); // Call the math function
+    const result = op_functions[op - 1](a, b); // Call the math function
     console.log(result);
   } catch (error) {
     console.error(error);
