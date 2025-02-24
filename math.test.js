@@ -17,7 +17,7 @@ describe('Math.js', () => {
     });
   });  
 describe('divide', () => {
-    it("Divides two numbers", () =>{
+    it("I AM A MORON", () =>{
       expect(divide(10,2)).toBe(5);
     });
     it("throws an err when dividing by zero", () =>{
